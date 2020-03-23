@@ -39,6 +39,11 @@
     "dataProvenance": "https://github.com/amodm/api-covid19-in",
     "license": "Scraped from Ministry of Health and Family Welfare plus other sources, no clear license"
   },
+  "iceland": {
+    "primarySource": "https://www.covid.is/data and https://www.landspitali.is/default.aspx?pageid=b629a8e0-b262-49e0-b842-0f776cb4241e",
+    "dataProvenance": "Icelandic authorities and hospital",
+    "license": "unclear"
+  },
   "tsv": {
     "primarySource": "Manually maintained .tsv files in case-counts/ folder",
     "dataProvenance": "Manually maintained by contributors",
