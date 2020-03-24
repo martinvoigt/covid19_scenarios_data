@@ -70,7 +70,7 @@ def loadPopTable(fname):
     return pops
 
 def getRegions():
-    with open('src/assets/data/case_counts.json') as fd:
+    with open('../src/assets/data/case_counts.json') as fd:
         regions = json.load(fd)
         return set(regions.keys())
 
