@@ -14,6 +14,11 @@
     "dataProvenance": "https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html",
     "license": "none specified"
   },
+  "iceland": {
+    "primarySource": "https://raw.githubusercontent.com/tryggvigy/CoronaWatchIS/master/data/covid_in_is.cvs",
+    "dataProvenance": "https://github.com/tryggvigy/CoronaWatchIS",
+    "license": "none specified"
+  },
   "italy": {
     "primarySource": "https://raw.github.com/pcm-dpc/COVID-19/master/dati-json/dpc-covid19-ita-regioni.json",
     "dataProvenance": "Dipartimento della Protezione Civile",
@@ -48,6 +53,11 @@
     "primarySource": "https://github.com/J535D165/CoronaWatchNL/blob/master/data, https://www.stichting-nice.nl/covid-19/public/intake-cumulative",
     "dataProvenance": "CoronaWatchNL, Stichting NICE",
     "license": "CC0 (CoronaWatchNL), none specified (Stichting NICE)"
+  },
+  "china": {
+    "primarySource": "https://github.com/BlankerL/DXY-COVID-19-Data/raw/master/csv/DXYOverall.csv",
+    "dataProvenance": "https://github.com/BlankerL/DXY-COVID-19-Data",
+    "license": "MIT"
   },
   "ecdc": {
     "primarySource": "https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-<DATE>-xlsx",

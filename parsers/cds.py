@@ -41,6 +41,9 @@ def retrieve_case_data():
             try:
                 # the order of county, region, county needs to be inverted
                 split = [x.strip() for x in c.split(',')]
+                if len(split)>2:
+                    #print(f'county detected: {split}, skipping')
+                    continue
                 if split[0] in countries:
                     split[0] = countries[split[0]]
                 country = "-".join(split[::-1])
@@ -68,8 +71,8 @@ def parse():
     store_json(cases)
 
     # for legacy support
-    cases = flatten(cases)
-    write_tsv(os.path.join(BASE_PATH,"case-counts/cds.tsv"), cols, cases, "cds")
+    #cases = flatten(cases)
+    #write_tsv(os.path.join(BASE_PATH,"case-counts/cds.tsv"), cols, cases, "cds")
 
 if __name__ == "__main__":
     # for debugging
